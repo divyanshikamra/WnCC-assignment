@@ -10,5 +10,3 @@ all_news= news_box.find_all('a' )
 for news in all_news:
     print(news.text)
     print()
-
-    
